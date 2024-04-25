@@ -337,8 +337,8 @@ body {
   margin-top: 8px;
 }
 
-.social-list-link:hover,
-.social-list-link:focus {
+.social-list-link-team:hover,
+.social-list-link-team:focus {
   background-color: #404bbf;
 }
 
