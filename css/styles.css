@@ -337,19 +337,19 @@ body {
   margin-top: 8px;
 }
 
-.social-list-link-team:hover,
-.social-list-link-team:focus {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: #404bbf;
 }
 
 .team-list-item:hover .social-list-link {
   background-color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .team-list-item .social-list-link:hover {
   background-color: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  /* transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 /* ================= PORTFOLIO STYLES ======================= */
@@ -482,6 +482,7 @@ body {
 .social-list-link:focus {
   background-color: #31d0aa;
 }
+
 .social-media-title {
   font-weight: 500;
   font-size: 16px;
