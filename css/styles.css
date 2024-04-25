@@ -155,6 +155,7 @@ body {
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .main-title {
@@ -182,12 +183,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   min-width: 169px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .order-button:hover,
 .order-button:focus {
   background-color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-container {
@@ -437,9 +438,7 @@ body {
 
 .social-list-footer {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  column-gap: 24px;
+  gap: 16px;
 }
 
 .social-list-link {
@@ -450,13 +449,12 @@ body {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-  fill: #111111;
-  gap: 16px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-list-link:hover {
+.social-list-link:hover,
+.social-list-link:focus {
   background-color: #31d0aa;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-media-title {
   font-weight: 500;
@@ -464,15 +462,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
+  margin-bottom: 16px;
 }
 
 .footer-container-all {
   display: flex;
-  justify-content: flex-start;
-}
-
-.social-media-title {
-  margin-bottom: 16px;
+  align-items: baseline;
 }
 
 .footer-container {
@@ -487,4 +482,8 @@ body {
   margin-right: 0;
   padding-left: 0;
   padding-right: 0;
+}
+
+.social-list-icon {
+  fill: #f4f4fd;
 }
